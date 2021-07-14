@@ -6,7 +6,6 @@ public interface PrintableTree {
     String prettyPrint();
 
     static PrintableTree getInstance() {
-
         try{
             return new PrintableTreeImpl();
         } catch (Exception e){
